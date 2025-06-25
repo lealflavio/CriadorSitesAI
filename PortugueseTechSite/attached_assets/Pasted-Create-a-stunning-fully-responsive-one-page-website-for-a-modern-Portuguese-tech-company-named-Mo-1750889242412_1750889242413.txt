@@ -1,0 +1,92 @@
+Create a stunning, fully responsive, one-page website for a modern Portuguese tech company named "Moderniza.pt".
+
+💼 About the Company:
+Moderniza.pt is a newly founded digital solutions company based in Portugal. They specialize in:
+- Website development for businesses
+- AI-driven process automation
+- Intelligent chatbot creation
+- Digital transformation consulting
+- Workflow integration with tools like n8n and OpenAI
+
+🌍 Language:
+All UI text and content must be in **Portuguese (PT-pt)**.
+But your internal logic, code, and comments should be in **English**.
+
+🎨 Design Style:
+- Modern, premium, ultra-clean design (inspired by Apple, Linear, Stripe)
+- Use strong visual hierarchy, white space, and readable typography
+- Smooth transitions, scroll-based animations, and subtle parallax effects
+- Use dark mode by default with blue and neon green as accent colors (reflecting innovation and tech)
+
+📐 Structure of the Website:
+
+1. 🖼️ **Hero Section**
+   - Full-screen dark background with interactive particle or gradient animation
+   - Company name, slogan: “Tecnologia. Eficiência. Inovação.”  
+   - Call-to-action (CTA) button: "Solicitar Orçamento" → scrolls to contact form
+   - Secondary button: "Ver Modelos de Sites" → scrolls to Templates section
+
+2. ℹ️ **About Us**
+   - Two-column layout: Image (or subtle Lottie animation) + text block  
+   - Title: "Quem Somos"  
+   - Short paragraph describing mission, vision, and innovation values  
+   - Include 3 highlights with icons (Ex: 100% Digital | Personalização Total | Atendimento Humanizado)
+
+3. 💡 **Solutions Section**
+   - Grid layout or horizontal scroll (carousel style)
+   - Each card with icon, title, and short description of service:
+     - Desenvolvimento de Sites
+     - Chatbots com IA
+     - Integração de Workflows
+     - Automatização de Processos
+     - Assistência Técnica Digital
+   - Add subtle hover effects, animated icons
+
+4. 🧠 **AI in Action (Optional Section)**
+   - Split section with example use-cases of AI in businesses
+   - Include interactive UI element (tabs or sliders)
+   - Ex: "Chatbot para atendimento", "IA que responde e-mails", "Bots que atualizam planilhas"
+
+5. 💸 **Pricing Section**
+   - Title: “Planos e Preços”
+   - Modern 3-column pricing table with toggle for "Mensal / Anual"
+   - Include plans: Essencial, Profissional, Corporativo
+   - Highlight the "Profissional" plan with a badge (Mais Popular)
+   - Each plan includes features with checkmarks or icons
+   - CTA buttons: "Contratar Agora" — must scroll to form
+
+6. 🧩 **Templates Page**
+   - Scrollable or slider-based layout showcasing available website templates
+   - Each template includes a thumbnail preview, category, and link to view demo
+   - Include CTA: "Quero este modelo" → opens contact modal or scrolls to form
+
+7. 📍 **Contact / Quote Form**
+   - Section title: “Solicite um Orçamento”
+   - Full contact form with fields: Nome, Email, Telefone, Empresa, Serviço desejado, Mensagem
+   - Optional file upload field for sending example documents
+   - Responsive layout with left-side contact info (WhatsApp, Email, Localização)
+   - Button triggers success animation
+
+8. 🗺️ **Footer**
+   - Dark background
+   - Include links to Terms, Privacy, Contact
+   - Icons for social media: LinkedIn, Instagram, WhatsApp
+   - Logo + Short phrase: "© 2025 Moderniza.pt — Soluções Digitais para um Mundo Inteligente"
+
+🔧 Extra Features:
+- All navigation links and buttons must scroll to their respective sections
+- Add smooth scroll behavior
+- Add hover interactions and subtle click animations
+- Responsive behavior for mobile, tablet, desktop
+- Use sticky navigation bar that shrinks on scroll
+- Animate elements into view as they scroll (Fade-In, Slide-Up, Scale)
+
+⚙️ Technologies:
+Use modern stack: HTML5, Tailwind CSS (or Framer’s UI Kit), JS for interactivity  
+Optional: Use React if supported by the generator  
+Ensure clean, production-ready code
+
+🧠 Bonus AI Prompt Logic:
+Enable all form buttons to send data to an external webhook (n8n webhook URL placeholder). Allow for language selector integration if needed in future.
+
+Everything must be designed with **UI/UX best practices**, accessibility in mind, and a touch of elegance.

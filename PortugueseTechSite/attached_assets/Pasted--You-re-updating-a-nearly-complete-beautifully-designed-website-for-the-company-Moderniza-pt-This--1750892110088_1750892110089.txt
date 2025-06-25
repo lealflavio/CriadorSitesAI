@@ -1,0 +1,75 @@
+
+You're updating a nearly complete, beautifully designed website for the company Moderniza.pt. This site is in Portuguese (PT-PT) by default and must preserve the visual identity (dark theme with neon green and blue). You're now required to make functional and design improvements while maintaining the modern and elegant style.
+
+🔁 General instructions:
+- All current site content must remain in Portuguese (Portugal), with correct grammar and vocabulary.
+- Perform a full sweep to test all interactive elements (navigation, buttons, carousels, links, hover effects, etc.).
+- Ensure responsiveness on mobile, tablet, and desktop.
+
+🧩 Form Integration:
+- The contact form already exists on the site. DO NOT replace it with the HubSpot embed code.
+- Instead, when the user submits the form, send the data via **HubSpot Forms API** (hidden backend integration). Use the portal ID and form ID from this embed snippet:
+
+```html
+<script src="https://js-eu1.hsforms.net/forms/embed/146428330.js" defer></script>
+<div class="hs-form-frame" data-region="eu1" data-form-id="c9a2bd57-28a9-41e6-b555-41f30448dfda" data-portal-id="146428330"></div>
+````
+
+* The form must keep all existing fields (name, email, phone, company, message) and also support **file uploads** (jpeg, PDF, docx).
+* Show a beautiful confirmation modal or toast when the form is successfully sent.
+
+🌍 Language switcher:
+
+* Add a **language selector** in the top-right corner of the site.
+* Supported languages: **Portuguese (default), English, Spanish, French**
+* Use flag icons or a minimal dropdown. All language content must remain consistent with the PT version.
+
+🌞 Light/Dark Mode:
+
+* Currently only dark mode exists. Add a full **light mode theme**.
+* Insert a **toggle button** (sun/moon icon) in the top navigation, styled discreetly.
+* Save the user's mode preference (via localStorage or cookies).
+
+📍 Contact Details:
+
+* Update company address to:
+  **Av. Sá da Bandeira N. 33 L 409, 3000-351 Coimbra, Portugal**
+* Update the phone number to:
+  **+351 937 059 712**
+* Make both the address and phone clickable (Google Maps and tel: link).
+
+📷 Design Fixes:
+
+* The "Quem Somos" section image must be replaced with a high-quality, visually aligned image with the site's aesthetic.
+* In the section "As Nossas Soluções", you show 5 service cards in a grid. Currently, 2 at the bottom are misaligned. Fix by:
+
+  * Either centering them horizontally
+  * Or adding a **sixth card** (suggested content: "Consultoria Digital")
+
+📱 Carousel Fix:
+
+* In the "Templates" carousel, a **white scrollbar is visible** — this breaks the visual harmony.
+* Replace it with a custom styled scrollbar or hide it entirely using modern CSS.
+
+🛑 Footer:
+
+* Two links are present: "Termos de Serviço" and "Política de Privacidade", but they open nowhere.
+* Implement modern modals (popup overlays) that open when clicked, using the same color scheme and clean design.
+* Add a **working Instagram icon and link** to:
+  [https://www.instagram.com/moderniza.pt](https://www.instagram.com/moderniza.pt)
+
+🌟 Reviews Section:
+
+* Add a new section near the bottom of the page titled **"Avaliações de Clientes"**.
+* This section should include a visually stunning **carousel** with testimonials, profile images, and stars.
+* Each slide can show 1–2 reviews with smooth transitions and modern typography.
+
+📦 Optional (if needed):
+
+* Use Supabase as a fallback backend only if HubSpot integration fails (but prioritize HubSpot).
+* If using Supabase for storage, store lead form data and uploaded files with basic security.
+
+Final step:
+
+* Test the entire website and ensure all animations, form submissions, language toggles, and scroll behaviors work correctly.
+* The site must remain fast, accessible, and aligned with top-tier UI/UX practices.

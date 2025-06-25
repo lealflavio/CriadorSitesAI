@@ -1,0 +1,82 @@
+You're finalizing the Moderniza.pt website. It's already highly polished, but some targeted corrections are needed to reach full professional quality. Please apply the following updates precisely.
+
+==================================================
+🎨 1. Light Mode Improvements (High Priority)
+==================================================
+The current light mode is too flat and lacks visibility.
+
+- Increase contrast between text and background elements.
+- Fix all **text visibility issues**: ensure no white or light text over light backgrounds.
+- Apply subtle shadows or borders to buttons, cards, containers for depth.
+- Use a slightly off-white background color (avoid pure white).
+- Maintain the existing typographic style — only adjust for readability.
+
+Review:
+- Headers, body text, buttons
+- Cards in "Soluções", "Preços", "Testemunhos"
+- Forms and input placeholders
+
+==================================================
+📱 2. Mobile Responsiveness (Critical)
+==================================================
+- Fix layout breakage in the **hero section**, where the title overflows on small screens.
+- Use responsive font scaling and paddings.
+- Ensure the entire mobile layout works smoothly across:
+  - 320px, 375px, 414px, 768px breakpoints
+
+Perform full mobile QA:
+- No horizontal scrollbars
+- Proper stacking of sections and elements
+- Responsive navigation
+
+==================================================
+🔗 3. Social Links
+==================================================
+- Remove the **LinkedIn** icon from the footer or any other part of the site.
+- Keep only relevant social icons:
+  - Instagram → https://www.instagram.com/moderniza.pt
+
+Ensure icons are styled consistently with the visual identity (hover color, padding, spacing).
+
+==================================================
+🤖 4. “IAs em Ação” Section (Responsive Tab Fix)
+==================================================
+- Fix the buttons (tabs) that currently overlap or break layout when resizing.
+- Implement responsive wrapping with `flex-wrap` or CSS grid.
+- Maintain proper padding and spacing between buttons at all screen sizes.
+- Ensure tab functionality continues to work correctly after the layout fix.
+
+==================================================
+🌟 5. Testimonials Carousel
+==================================================
+- Optimize the layout so that:
+  - On desktop: show **3 testimonials** per view
+  - On tablet: show **2**
+  - On mobile: show **1**
+
+- Use compact cards with name, photo, stars, and short review.
+- Ensure horizontal scrolling or swiping is smooth.
+- Eliminate any visible white scrollbar.
+- Maintain spacing and aesthetic balance.
+
+==================================================
+❌ 6. REMOVE Language Selector
+==================================================
+- The language selector is not functioning and should be removed entirely from the website.
+- Eliminate both visual elements and underlying logic (JavaScript/state).
+- All content will remain in **Portuguese (Portugal)** only.
+- Do not display any dropdowns or buttons referring to other languages.
+
+==================================================
+🧪 7. Final Quality Pass
+==================================================
+Once the changes are complete, do a thorough full-site test:
+
+- ✅ All text is readable and well-aligned in both light and dark modes
+- ✅ All sections work responsively across desktop, tablet, and mobile
+- ✅ No layout overlaps, overflows, or console errors
+- ✅ All buttons, forms, tabs, carousels function as expected
+- ✅ Design is visually consistent and clean
+- ✅ Site loads fast and feels modern
+
+The final result must be a **bug-free, fully responsive, beautiful website in Portuguese (PT-PT)**.
